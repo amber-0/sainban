@@ -3,7 +3,7 @@
   const btn = document.getElementById('btn');
 
   btn.addEventListener('touchstart', () => {
-    const results =['勝訴', '敗訴','あさひ','つよし'];
+    const results =['外池', '荻野','河内','井出','谷地畝'];
     btn.textContent = results[Math.floor(Math.random() * results.length)];
 
     // switch(n){
